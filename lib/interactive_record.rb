@@ -54,6 +54,12 @@ class InteractiveRecord
   end
   
   def self.find_by(atttribute)
+    
+    if attribute  = integer 
+          bro, nah 
+        else 
+          
+    
   end 
   
   
