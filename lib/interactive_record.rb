@@ -55,6 +55,10 @@ class InteractiveRecord
   
   def self.find_by(atttribute)
     
+    sql = "SELECT * FROM #{self.table_name} WHERE name = '#{name}'"
+    DB[:conn].execute(sql)
+    
+    
     if attribute  = integer 
           bro, nah 
         else 
