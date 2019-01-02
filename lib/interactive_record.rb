@@ -58,8 +58,7 @@ class InteractiveRecord
     if attribute  = integer 
           bro, nah 
         else 
-          
-    
+          finds the row 
   end 
   
   
